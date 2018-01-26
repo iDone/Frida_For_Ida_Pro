@@ -4,7 +4,12 @@ import idc
 from idc import *
 from idaapi import *
 import PyQt4
-from PyQt4 import QtCore, QtGui
+# -Author Storm Shadow
+# -Modifier B.S. (iDone)
+
+# for IDA v6.8 PyQt4 ==> PySide
+#from PyQt4 import QtCore, QtGui
+from PySide import QtCore, QtGui
 import idautils
 
 class caramber(idaapi.plugin_t):
