@@ -1,6 +1,9 @@
 # -Author Storm Shadow
+# -Modifier B.S. (iDone)
 
-from PyQt4 import QtCore, QtGui
+# for IDA v6.8 PyQt4 ==> PySide
+#from PyQt4 import QtCore, QtGui
+from PySide import QtCore, QtGui
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
